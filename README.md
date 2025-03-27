@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @LPuehringerStudent
 - 👀 I’m interested in Linux, GameDesign, Any Project
-- 🌱 I’m currently learning C#, C, HTML, Java Script, CSS
+- 🌱 I’m currently learning C#, C, HTML, Java Script, CSS, bash
 - 💞️ I’m looking to collaborate on any project. 
 - 📫 How to reach me on github or "laurenz.puehringer@gmail.com"
 - 😄 Pronouns: he/him
