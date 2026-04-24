@@ -12,3 +12,9 @@
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img alt="LPuehringerStudent's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=LPuehringerStudent&show_icons=true&theme=tokyonight" />
 </a>
+
+<!-- Top Languages -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LPuehringerStudent&theme=tokyonight&layout=compact" />
+
+<!-- GitHub Streak -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=LPuehringerStudent&theme=tokyonight" />
