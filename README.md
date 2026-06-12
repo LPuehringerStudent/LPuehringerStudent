@@ -14,6 +14,9 @@
   <a href="mailto:laurenz.puehringer@gmail.com">
     <img src="https://img.shields.io/badge/Email-BF616A?style=for-the-badge&labelColor=2E3440" alt="Email" />
   </a>
+  <a href="https://github.com/LPuehringerStudent/LPuehringerStudent/actions/workflows/snake.yml">
+    <img src="https://github.com/LPuehringerStudent/LPuehringerStudent/actions/workflows/snake.yml/badge.svg" alt="Generate Snake" />
+  </a>
 
 </div>
 
@@ -66,7 +69,7 @@
     <img src="https://img.shields.io/badge/Live_Site-5E81AC?style=for-the-badge&labelColor=2E3440" alt="Live Site" />
   </a>
   <a href="https://github.com/LPuehringerStudent/EmberExchange">
-    <img src="https://img.shields.io/badge/View_Code-2E3440?style=for-the-badge&labelColor=2E3440" alt="View Code" />
+    <img src="https://img.shields.io/badge/View_Code-88C0D0?style=for-the-badge&labelColor=2E3440" alt="View Code" />
   </a>
 
   <p><i>Project I'm currently leading. Contact me if you want access to the codebase.</i></p>
@@ -85,7 +88,11 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
 ---
