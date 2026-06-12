@@ -77,10 +77,10 @@
 
 ## About
 
-- Linux enthusiast (Windows Updates are the real horror)
+- Linux enthusiast 
 - Interested in GameDev and any meaningful project
 - Open to collaboration on anything interesting
-- <code>int* ptr = &nightmare;</code>
+- <code>int* ptr = &crashout;</code>
 
 ---
 
