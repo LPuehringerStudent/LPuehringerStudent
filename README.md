@@ -78,6 +78,47 @@
 
 ---
 
+## Team Projects
+
+<div align="center">
+
+  <h3>EmberExchange</h3>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/main/assets/projects/emberexchange-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/main/assets/projects/emberexchange-light.svg" />
+    <img alt="EmberExchange workflow" src="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/main/assets/projects/emberexchange-light.svg" />
+  </picture>
+
+  <p><i>Browse markets, place orders, execute trades, and track your portfolio.</i></p>
+
+  <a href="https://emberexchange.xyz">
+    <img src="https://img.shields.io/badge/Live_Site-5E81AC?style=flat-square&labelColor=2E3440" alt="Live Site" />
+  </a>
+  <a href="https://github.com/LPuehringerStudent/EmberExchange">
+    <img src="https://img.shields.io/badge/View_Code-88C0D0?style=flat-square&labelColor=2E3440" alt="View Code" />
+  </a>
+
+  <br><br>
+
+  <h3>RedQuorum</h3>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/main/assets/projects/redquorum-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/main/assets/projects/redquorum-light.svg" />
+    <img alt="RedQuorum workflow" src="https://raw.githubusercontent.com/LPuehringerStudent/LPuehringerStudent/main/assets/projects/redquorum-light.svg" />
+  </picture>
+
+  <p><i>Run security scans, analyze findings, and generate reports.</i></p>
+
+  <a href="https://github.com/LPuehringerStudent/RedQuorum">
+    <img src="https://img.shields.io/badge/View_Code-88C0D0?style=flat-square&labelColor=2E3440" alt="View Code" />
+  </a>
+
+</div>
+
+---
+
 ## About
 
 - Linux enthusiast 
