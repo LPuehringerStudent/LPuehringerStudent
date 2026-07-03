@@ -3,56 +3,59 @@
     .bg { fill:#2E3440; }
     text { font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; text-anchor:middle; }
     .step { fill:#2E3440; stroke:#81A1C1; stroke-width:3; }
-    .num { font-size:18px; font-weight:700; fill:#81A1C1; dominant-baseline:central; }
+    .icon { color:#81A1C1; }
     .label { font-size:13px; font-weight:600; fill:#81A1C1; }
     .arrow { stroke:#81A1C1; stroke-width:2; fill:none; }
     .g1 .step { animation: s1s 10s infinite; }
-    .g1 .num { animation: s1n 10s infinite; }
+    .g1 .icon { animation: s1i 10s infinite; }
     .g1 .label { animation: s1l 10s infinite; }
     @keyframes s1s { 0%,0.00%,20.00%,25.00%,100%{fill:#2E3440;stroke:#81A1C1} 0.00%,20.00%{fill:#88C0D0;stroke:#88C0D0} }
-    @keyframes s1n { 0%,0.00%,20.00%,25.00%,100%{fill:#81A1C1} 0.00%,20.00%{fill:#2E3440} }
+    @keyframes s1i { 0%,0.00%,20.00%,25.00%,100%{color:#81A1C1} 0.00%,20.00%{color:#2E3440} }
     @keyframes s1l { 0%,0.00%,20.00%,25.00%,100%{fill:#81A1C1} 0.00%,20.00%{fill:#D8DEE9} }
     .g2 .step { animation: s2s 10s infinite; }
-    .g2 .num { animation: s2n 10s infinite; }
+    .g2 .icon { animation: s2i 10s infinite; }
     .g2 .label { animation: s2l 10s infinite; }
     @keyframes s2s { 0%,25.00%,45.00%,50.00%,100%{fill:#2E3440;stroke:#81A1C1} 25.00%,45.00%{fill:#88C0D0;stroke:#88C0D0} }
-    @keyframes s2n { 0%,25.00%,45.00%,50.00%,100%{fill:#81A1C1} 25.00%,45.00%{fill:#2E3440} }
+    @keyframes s2i { 0%,25.00%,45.00%,50.00%,100%{color:#81A1C1} 25.00%,45.00%{color:#2E3440} }
     @keyframes s2l { 0%,25.00%,45.00%,50.00%,100%{fill:#81A1C1} 25.00%,45.00%{fill:#D8DEE9} }
     .g3 .step { animation: s3s 10s infinite; }
-    .g3 .num { animation: s3n 10s infinite; }
+    .g3 .icon { animation: s3i 10s infinite; }
     .g3 .label { animation: s3l 10s infinite; }
     @keyframes s3s { 0%,50.00%,70.00%,75.00%,100%{fill:#2E3440;stroke:#81A1C1} 50.00%,70.00%{fill:#88C0D0;stroke:#88C0D0} }
-    @keyframes s3n { 0%,50.00%,70.00%,75.00%,100%{fill:#81A1C1} 50.00%,70.00%{fill:#2E3440} }
+    @keyframes s3i { 0%,50.00%,70.00%,75.00%,100%{color:#81A1C1} 50.00%,70.00%{color:#2E3440} }
     @keyframes s3l { 0%,50.00%,70.00%,75.00%,100%{fill:#81A1C1} 50.00%,70.00%{fill:#D8DEE9} }
     .g4 .step { animation: s4s 10s infinite; }
-    .g4 .num { animation: s4n 10s infinite; }
+    .g4 .icon { animation: s4i 10s infinite; }
     .g4 .label { animation: s4l 10s infinite; }
     @keyframes s4s { 0%,75.00%,95.00%,100.00%,100%{fill:#2E3440;stroke:#81A1C1} 75.00%,95.00%{fill:#88C0D0;stroke:#88C0D0} }
-    @keyframes s4n { 0%,75.00%,95.00%,100.00%,100%{fill:#81A1C1} 75.00%,95.00%{fill:#2E3440} }
+    @keyframes s4i { 0%,75.00%,95.00%,100.00%,100%{color:#81A1C1} 75.00%,95.00%{color:#2E3440} }
     @keyframes s4l { 0%,75.00%,95.00%,100.00%,100%{fill:#81A1C1} 75.00%,95.00%{fill:#D8DEE9} }
+    .token { fill:#88C0D0; animation:tokenMove 10s infinite; }
+    @keyframes tokenMove { 0%,0.00%,20.00%,25.00%,100%{transform:translate(95px,55px)} 0%,25.00%,45.00%,50.00%,100%{transform:translate(255px,55px)} 0%,50.00%,70.00%,75.00%,100%{transform:translate(415px,55px)} 0%,75.00%,95.00%,100.00%,100%{transform:translate(575px,55px)} }
   </style>
   <rect width="100%" height="100%" class="bg"/>
   <g class="g1" transform="translate(95,55)">
     <circle class="step" r="26"/>
-    <text class="num" y="1">1</text>
+    <g class="icon"><path d="M2 18 L8 12 L14 16 L22 4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
     <text class="label" y="50">Browse markets</text>
 </g>
   <g class="g2" transform="translate(255,55)">
     <circle class="step" r="26"/>
-    <text class="num" y="1">2</text>
+    <g class="icon"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><line x1="9" y1="1" x2="15" y2="1" stroke="currentColor" stroke-width="2"/><line x1="9" y1="8" x2="15" y2="8" stroke="currentColor" stroke-width="2"/><line x1="9" y1="13" x2="15" y2="13" stroke="currentColor" stroke-width="2"/></g>
     <text class="label" y="50">Place order</text>
 </g>
   <g class="g3" transform="translate(415,55)">
     <circle class="step" r="26"/>
-    <text class="num" y="1">3</text>
+    <g class="icon"><path d="M2 8 L10 8 L8 5 M10 8 L8 11" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M22 16 L14 16 L16 13 M14 16 L16 19" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
     <text class="label" y="50">Trade executes</text>
 </g>
   <g class="g4" transform="translate(575,55)">
     <circle class="step" r="26"/>
-    <text class="num" y="1">4</text>
+    <g class="icon"><rect x="3" y="10" width="4" height="12" fill="currentColor"/><rect x="10" y="4" width="4" height="18" fill="currentColor"/><rect x="17" y="12" width="4" height="10" fill="currentColor"/></g>
     <text class="label" y="50">Portfolio updates</text>
 </g>
   <line class="arrow" x1="121" y1="55" x2="229" y2="55"/>
   <line class="arrow" x1="281" y1="55" x2="389" y2="55"/>
   <line class="arrow" x1="441" y1="55" x2="549" y2="55"/>
+  <circle class="token" r="5"/>
 </svg>

@@ -3,44 +3,47 @@
     .bg { fill:#ECEFF4; }
     text { font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; text-anchor:middle; }
     .step { fill:#ECEFF4; stroke:#4C566A; stroke-width:3; }
-    .num { font-size:18px; font-weight:700; fill:#4C566A; dominant-baseline:central; }
+    .icon { color:#4C566A; }
     .label { font-size:13px; font-weight:600; fill:#4C566A; }
     .arrow { stroke:#4C566A; stroke-width:2; fill:none; }
     .g1 .step { animation: s1s 10s infinite; }
-    .g1 .num { animation: s1n 10s infinite; }
+    .g1 .icon { animation: s1i 10s infinite; }
     .g1 .label { animation: s1l 10s infinite; }
     @keyframes s1s { 0%,0.00%,26.67%,33.33%,100%{fill:#ECEFF4;stroke:#4C566A} 0.00%,26.67%{fill:#88C0D0;stroke:#88C0D0} }
-    @keyframes s1n { 0%,0.00%,26.67%,33.33%,100%{fill:#4C566A} 0.00%,26.67%{fill:#ECEFF4} }
+    @keyframes s1i { 0%,0.00%,26.67%,33.33%,100%{color:#4C566A} 0.00%,26.67%{color:#ECEFF4} }
     @keyframes s1l { 0%,0.00%,26.67%,33.33%,100%{fill:#4C566A} 0.00%,26.67%{fill:#2E3440} }
     .g2 .step { animation: s2s 10s infinite; }
-    .g2 .num { animation: s2n 10s infinite; }
+    .g2 .icon { animation: s2i 10s infinite; }
     .g2 .label { animation: s2l 10s infinite; }
     @keyframes s2s { 0%,33.33%,60.00%,66.67%,100%{fill:#ECEFF4;stroke:#4C566A} 33.33%,60.00%{fill:#88C0D0;stroke:#88C0D0} }
-    @keyframes s2n { 0%,33.33%,60.00%,66.67%,100%{fill:#4C566A} 33.33%,60.00%{fill:#ECEFF4} }
+    @keyframes s2i { 0%,33.33%,60.00%,66.67%,100%{color:#4C566A} 33.33%,60.00%{color:#ECEFF4} }
     @keyframes s2l { 0%,33.33%,60.00%,66.67%,100%{fill:#4C566A} 33.33%,60.00%{fill:#2E3440} }
     .g3 .step { animation: s3s 10s infinite; }
-    .g3 .num { animation: s3n 10s infinite; }
+    .g3 .icon { animation: s3i 10s infinite; }
     .g3 .label { animation: s3l 10s infinite; }
     @keyframes s3s { 0%,66.67%,93.33%,100.00%,100%{fill:#ECEFF4;stroke:#4C566A} 66.67%,93.33%{fill:#88C0D0;stroke:#88C0D0} }
-    @keyframes s3n { 0%,66.67%,93.33%,100.00%,100%{fill:#4C566A} 66.67%,93.33%{fill:#ECEFF4} }
+    @keyframes s3i { 0%,66.67%,93.33%,100.00%,100%{color:#4C566A} 66.67%,93.33%{color:#ECEFF4} }
     @keyframes s3l { 0%,66.67%,93.33%,100.00%,100%{fill:#4C566A} 66.67%,93.33%{fill:#2E3440} }
+    .scanner { fill:#88C0D0; opacity:0.25; animation:scannerMove 10s infinite; }
+    @keyframes scannerMove { 0%,0.00%,26.67%,33.33%,100%{transform:translate(95px,55px)} 0%,33.33%,60.00%,66.67%,100%{transform:translate(255px,55px)} 0%,66.67%,93.33%,100.00%,100%{transform:translate(415px,55px)} }
   </style>
   <rect width="100%" height="100%" class="bg"/>
   <g class="g1" transform="translate(95,55)">
     <circle class="step" r="26"/>
-    <text class="num" y="1">1</text>
+    <g class="icon"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2" fill="none"/><line x1="12" y1="1" x2="12" y2="5" stroke="currentColor" stroke-width="2"/><line x1="12" y1="19" x2="12" y2="23" stroke="currentColor" stroke-width="2"/><line x1="1" y1="12" x2="5" y2="12" stroke="currentColor" stroke-width="2"/><line x1="19" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2"/></g>
     <text class="label" y="50">Scan</text>
 </g>
   <g class="g2" transform="translate(255,55)">
     <circle class="step" r="26"/>
-    <text class="num" y="1">2</text>
+    <g class="icon"><circle cx="10" cy="10" r="6" stroke="currentColor" stroke-width="2" fill="none"/><line x1="14" y1="14" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></g>
     <text class="label" y="50">Analyze</text>
 </g>
   <g class="g3" transform="translate(415,55)">
     <circle class="step" r="26"/>
-    <text class="num" y="1">3</text>
+    <g class="icon"><rect x="5" y="2" width="14" height="20" rx="2" stroke="currentColor" stroke-width="2" fill="none"/><line x1="9" y1="8" x2="15" y2="8" stroke="currentColor" stroke-width="2"/><line x1="9" y1="13" x2="15" y2="13" stroke="currentColor" stroke-width="2"/><path d="M9 17 L11 19 L15 15" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
     <text class="label" y="50">Report</text>
 </g>
   <line class="arrow" x1="121" y1="55" x2="229" y2="55"/>
   <line class="arrow" x1="281" y1="55" x2="389" y2="55"/>
+  <rect class="scanner" x="-12" y="-35" width="24" height="70" rx="4"/>
 </svg>
