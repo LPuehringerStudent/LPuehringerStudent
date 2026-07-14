@@ -21,7 +21,7 @@ jobs:
           github_user_name: LPuehringerStudent
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=nord
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
       - uses: crazy-max/ghaction-github-pages@5859b4ea7efe6b470a5b19c570460eae9323aefc # v3
         with:
           target_branch: output

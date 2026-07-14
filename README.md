@@ -2,7 +2,7 @@
 
   <!-- Typing Animation Header -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=88C0D0&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Laurenz;Linux+%7C+GameDev+%7C+Open+Source;Currently+scared+of+C+pointers..." alt="Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=88C0D0&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Laurenz;Linux+%7C+Open+Source;Currently+scared+of+C+pointers..." alt="Typing Animation" />
   </a>
 
   <br><br>
@@ -25,6 +25,7 @@
 ## Tech Stack
 
 ### Comfortable
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -33,7 +34,6 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 ### Learning
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
@@ -63,16 +63,13 @@
 
 <div align="center">
 
-  <h3>EmberExchange</h3>
+  <h3>MyPL</h3>
 
-  <a href="https://emberexchange.xyz">
-    <img src="https://img.shields.io/badge/Live_Site-5E81AC?style=for-the-badge&labelColor=2E3440" alt="Live Site" />
-  </a>
-  <a href="https://github.com/LPuehringerStudent/EmberExchange">
+  <a href="https://github.com/LPuehringerStudent/MyPL">
     <img src="https://img.shields.io/badge/View_Code-88C0D0?style=for-the-badge&labelColor=2E3440" alt="View Code" />
   </a>
 
-  <p><i>Project I'm currently leading. Contact me if you want access to the codebase.</i></p>
+  <p><i>Project I'm currently leading. Contact me if you want to contribute.</i></p>
 
 </div>
 
@@ -80,8 +77,9 @@
 
 ## About
 
-- Linux enthusiast 
-- Interested in GameDev and any meaningful project
+- Linux fan
+- Setup: CachyOS + KDE
+- IDE's: Jetbrain IDE's 
 - Open to collaboration on anything interesting
 - <code>int* ptr = &crashout;</code>
 
@@ -98,5 +96,5 @@
 ---
 
 <p align="center">
-  <i>Reach me on <a href="https://github.com/LPuehringerStudent">GitHub</a> or <a href="mailto:laurenz.puehringer@gmail.com">laurenz.puehringer@gmail.com</a></i>
+  <i>Reach me on <a href="https://github.com/LPuehringerStudent">GitHub (amazing hyperlink to this exact repo)</a> or <a href="mailto:laurenz.puehringer@gmail.com">laurenz.puehringer@gmail.com (my GMAIL 😲)</a></i>
 </p>
