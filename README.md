@@ -43,11 +43,11 @@
 ## GitHub Stats
 
 <div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=LPuehringerStudent&show_icons=true&theme=nord&hide_border=true&border_radius=8" alt="GitHub Stats" />
+  <a href="https://github.com/LPuehringerStudent">
+    <img height="165" src="https://github-readme-stats.shion.dev/api?username=LPuehringerStudent&show_icons=true&theme=nord&hide_border=true&border_radius=8" alt="GitHub Stats" />
   </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LPuehringerStudent&theme=nord&layout=compact&hide_border=true&border_radius=8" alt="Top Languages" />
+  <a href="https://github.com/LPuehringerStudent">
+    <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=LPuehringerStudent&theme=nord&layout=compact&hide_border=true&border_radius=8" alt="Top Languages" />
   </a>
 </div>
 
