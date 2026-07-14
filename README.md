@@ -2,7 +2,7 @@
 
   <!-- Typing Animation Header -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=88C0D0&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Laurenz;Linux+%7C+GameDev+%7C+Open+Source;Currently+scared+of+C+pointers..." alt="Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=88C0D0&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Laurenz;Linux+%7C+Open+Source;Currently+scared+of+C+pointers..." alt="Typing Animation" />
   </a>
 
   <br><br>
