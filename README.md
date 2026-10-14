@@ -63,7 +63,7 @@
 
 <div align="center">
 
-  <h3>MyPL</h3>
+  <h3>auspex-lang</h3>
 
   <a href="https://github.com/LPuehringerStudent/MyPL">
     <img src="https://img.shields.io/badge/View_Code-88C0D0?style=for-the-badge&labelColor=2E3440" alt="View Code" />
