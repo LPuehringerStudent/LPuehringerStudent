@@ -22,7 +22,7 @@ Right now I'm looking for a software engineering internship.
   </tr>
   <tr>
     <td><b>Backend & data</b></td>
-    <td><img src="https://skillicons.dev/icons?i=fastapi,postgres,sqlite,angular,godot&perline=8" alt="FastAPI, PostgreSQL, SQLite, Angular, Godot" /></td>
+    <td><img src="icons/axum.svg" width="48" height="48" alt="Axum" />&nbsp;<img src="https://skillicons.dev/icons?i=postgres,sqlite,angular,godot&perline=8" alt="PostgreSQL, SQLite, Angular, Godot" /></td>
   </tr>
   <tr>
     <td><b>Tools</b></td>
@@ -58,7 +58,7 @@ I also run a Dell PowerEdge R740 at home on Proxmox. It hosts game servers, a co
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/LPuehringerStudent/RedQuorum">RedQuorum</a></h4>
-      <img src="https://skillicons.dev/icons?i=py,fastapi,angular" height="28" alt="Python, FastAPI, Angular" /><br/><br/>
+      <img src="https://skillicons.dev/icons?i=py,angular" height="28" alt="Python, Angular" /><br/><br/>
       A security scanner where several AI agents argue about each finding and vote on it. Only what they agree on ends up in the report, which keeps the false alarms down.<br/><br/>
       <sub>1st place at Youth Entrepreneurship Week 2026</sub>
     </td>
