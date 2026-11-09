@@ -49,7 +49,7 @@ I also run a Dell PowerEdge R740 at home on Proxmox. It hosts game servers, a co
       <sub>I lead the project · runs on Linux, macOS and Windows</sub>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/LPuehringerStudent/tripwire">Tripwire</a> 
+      <h4><a href="https://github.com/LPuehringerStudent/tripwire">Tripwire</a> </h4>
       <img src="https://skillicons.dev/icons?i=rust,ts" height="28" alt="Rust, TypeScript" /><br/><br/>
       Practice spotting phishing emails and scam calls before a real one shows up. Gemma 4 writes the scenarios and even calls you on the phone, with a Rust backend keeping it all together.<br/><br/>
       <sub>Built in one day · 1st overall at the MLH × YAIL Hacktoberfest HackDay 2026</sub>
